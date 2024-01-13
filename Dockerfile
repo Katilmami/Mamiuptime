@@ -1,11 +1,14 @@
 # Resmi Node.js 14.x imajını kullan
 FROM node:14
 
-# Uygulama dosyalarını /app dizinine kopyala
-COPY . /app
+# /app dizinini oluştur
+RUN mkdir /app
 
 # Çalışma dizinini /app olarak ayarla
 WORKDIR /app
+
+# Uygulama dosyalarını /app dizinine kopyala
+COPY . .
 
 # Gerekli bağımlılıkları yükle
 RUN npm install
