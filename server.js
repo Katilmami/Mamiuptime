@@ -1,7 +1,7 @@
 const db = require("quick.db");
 const discord = require("discord.js");
 const client = new discord.Client({ disableEveryone: true });
-client.login("OTIxNjYyMDk3NjczMzEwMjM5.GA5X6f.OOjs8wuerE4kn0RO3he-QxCf8NFryQXOWTvWOk");
+client.login(process.env.TOKEN);
 const fetch = require("node-fetch");
 const fs = require("fs"); //NELLOGIX
 require("express")().listen(1343);
