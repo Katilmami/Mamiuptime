@@ -1,1 +1,1 @@
-RUN cat ls
+RUN ls 
