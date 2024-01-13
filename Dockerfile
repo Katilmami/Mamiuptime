@@ -1,1 +1,1 @@
-RUN ls 
+RUN ls /app
