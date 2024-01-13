@@ -1,1 +1,1 @@
-RUN cat server.js
+RUN cat ls
